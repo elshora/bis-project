@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-white p-6">
+    <nav className="flex items-center justify-between flex-wrap bg-white p-6 border-b-4">
       <div className="flex items-center flex-shrink-0 text-gray-800 mr-6">
         <img src="/images/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
         <span className="font-semibold text-xl tracking-tight">
