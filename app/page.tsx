@@ -1,17 +1,14 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import RootLayout from "./layout";
-import Link from "next/link";
-import LandingPage from "./Landing";
-import Navbar from "./NavBar";
+import LandingPage from "./components/Landing";
+import Prices from "./components/Prices";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
+    <main className="min-h-screen place-content-center bg:main">
       <LandingPage />
+      <Prices />
     </main>
   );
 }
